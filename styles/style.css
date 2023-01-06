@@ -113,6 +113,7 @@
    font-weight: 400;
    line-height: 26px;
    color: #444343;
+   margin: 8px 0;
 }
 
 .failures-list li i {
