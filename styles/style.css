@@ -214,9 +214,12 @@
 input[type="email"] {
    padding: 15px 20px;
    background: transparent;
-   color: #F3F3F3;
    font-size: 18px;
    border: 1px solid #fff;
    border-radius: 8px;
    margin: 30px 0 15px 0;
+}
+
+input[type="email"]::placeholder {
+   color: #fff;
 }
