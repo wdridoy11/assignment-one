@@ -18,6 +18,96 @@
 }
 
 /* Banner section style */
+#banner {
+   background-image: url('../images/banner/banner1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 215px 0 161px 0;
+}
+
+.banner-details {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.banner-content {
+   width: 524px;
+   text-align: right;
+}
+
+.banner-title {
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 76px;
+   color: #151414
+}
+
+.banner-description {
+   margin: 24px 0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #444343;
+}
+
+.banner-btn {
+   padding: 17px 26px;
+   font-size: 20px;
+   font-weight: 500;
+   background: #F15B22;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+}
+
+/* failures section style */
+#failures {
+   margin: 130px 0;
+}
+
+.failures-details {
+   display: flex;
+   align-items: center;
+   gap: 90px;
+}
+
+.failures-content {
+   padding-right: 35px;
+}
+
+.failures-content>.section-title {
+   text-align: left;
+}
+
+.failures-description {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #444343;
+   margin: 24px 0;
+}
+
+.failures-list {
+   margin: 0;
+   padding: 0;
+}
+
+.failures-list li {
+   list-style: none;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #444343;
+}
+
+.failures-list li i {
+   color: #16D887;
+   margin-right: 4px;
+
+
+}
+
 /* Plans section style */
 #plans {
    margin: 130px 0;
