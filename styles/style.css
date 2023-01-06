@@ -1,4 +1,4 @@
-/* Common style */
+/* Common css style */
 * {
    margin: 0;
    font-family: 'Work Sans', sans-serif;
@@ -25,9 +25,11 @@
    font-weight: 600;
    border-radius: 8px;
    border: none;
+   cursor: pointer;
 }
 
 /* Banner section style */
+
 #banner {
    background-image: url('../images/banner/banner1.png');
    background-repeat: no-repeat;
@@ -69,9 +71,11 @@
    color: #fff;
    border-radius: 5px;
    border: none;
+   cursor: pointer;
 }
 
 /* failures section style */
+
 #failures {
    margin: 130px 0;
 }
@@ -114,11 +118,10 @@
 .failures-list li i {
    color: #16D887;
    margin-right: 4px;
-
-
 }
 
 /* Plans section style */
+
 #plans {
    margin: 130px 0;
 }
@@ -132,8 +135,6 @@
 .plan-item {
    text-align: center;
 }
-
-.plan-item-icon {}
 
 .plan-item-title {
    font-size: 30px;
@@ -151,6 +152,7 @@
 }
 
 /* positive mindset section style */
+
 #positive-mindset {
    margin-bottom: 130px;
 }
@@ -169,6 +171,7 @@
 }
 
 /* footer section style */
+
 #footer {
    background: #151414;
    padding: 130px 0;
