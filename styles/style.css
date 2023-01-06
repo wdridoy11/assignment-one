@@ -17,6 +17,16 @@
    text-align: center;
 }
 
+.primary-btn {
+   padding: 15px 20px;
+   background: #fff;
+   color: #F15B22;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 8px;
+   border: none;
+}
+
 /* Banner section style */
 #banner {
    background-image: url('../images/banner/banner1.png');
@@ -140,6 +150,24 @@
    color: #737272;
 }
 
+/* positive mindset section style */
+#positive-mindset {
+   margin-bottom: 130px;
+}
+
+.positive-mindset-details {
+   background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+   padding: 60px;
+   border-radius: 8px;
+}
+
+.positive-mindset-details>.section-title {
+   text-align: left;
+   color: #fff;
+   margin-bottom: 24px;
+   width: 55%;
+}
+
 /* footer section style */
 #footer {
    background: #151414;
@@ -168,6 +196,10 @@
    margin: 24px 0;
 }
 
+.social a {
+   text-decoration: none;
+}
+
 .footer-sub-title {
    font-size: 25px;
    font-weight: 600;
@@ -183,13 +215,4 @@ input[type="email"] {
    border: 1px solid #fff;
    border-radius: 8px;
    margin: 30px 0 15px 0;
-}
-
-input[type="submit"] {
-   padding: 15px 20px;
-   background: #fff;
-   color: #F15B22;
-   font-size: 20px;
-   font-weight: 600;
-   border-radius: 8px;
 }
